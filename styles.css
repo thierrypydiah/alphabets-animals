@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url("Image/backgroundanimal.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 16px;
+  font-family: 'Luckiest Guy', cursive;
+  color: olive;
+
+}
+
+body {
+  padding: 50px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+	font-size: 60px;
+}
+
+.footer {
+	font-size: 25px;
+	color: olive;
+}
+
+.popup {
+	opacity: 0;
+	transition: 1s all;
+
+	display: inline-block;
+	width: 400px;
+	min-height: 400px;
+	background-color: #b3b35d;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 20px;
+}
+
+.popup p {
+	text-align: left;
+	margin-top: 20px;
+}
+
+.home {
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	border: 1px #f2d5a0 solid;
+	font-family: 'Luckiest Guy', cursive;
+	color: olive ;
+	cursor: pointer;
+
+}
+
+.home:active {
+	background-color: olive;
+	color: white;
+}
+
+.buttons {
+	margin: 50px 0px;
+
+}
+
+.button {
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	border: 1px #f2d5a0 solid;
+	font-family: 'Luckiest Guy', cursive;
+	color: olive ;
+	cursor: pointer;
+}
+
+.button:focus {
+	outline: none;
+}
+
+.button:active {
+	background-color: olive;
+	color: white;
+}
+
+.active{
+	opacity: 1;
+	transition: 1s all;
+}
+
+img {
+	width: 50%;
+}
+
+audio {
+	width:50%;
+}
